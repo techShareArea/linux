@@ -59,3 +59,19 @@ AUFS(AnotherUnionFS)是一种Union FS，简单来说就是支持将不同目录�
 Device mapper是Linux 2.6内核中提供的一种从逻辑设备到物理设备的映射框架机制，在该机制下，用户可以很方便的根据自己的需要制定实现存储资源的管理策略。
 Device mapper driver会创建一个100G的简单文件包含你的镜像和容器。每一个容器被限制在10G大小的卷内，可以调整。
 
+#### linux系统存在的安全隐患
+```
+1. 暴力破解密码；  # 解决办法: a.修改远程端口22，b.禁止root登陆；https://jingyan.baidu.com/article/7c6fb428ff2eb580642c90f0.html
+2. 流量攻击；      # https://blog.csdn.net/u013929284/article/details/71077162
+3. cc攻击。        # https://www.cnblogs.com/pengyunjing/p/10661080.html
+```
+
+
+
+
+
+
+
+
+
+
